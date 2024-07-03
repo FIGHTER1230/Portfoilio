@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    font-family: "Poppins";
+  }
+  
+
+  .kkk{
+    display: flex;
+    flex-direction: row;
+
+  }
+  :root{
+  --main-color: #634806
+  --secondary-color: blue 
+}
+body{
+  background-color: var(--main-color);
+  font-family: Poppins;
+}
+  header {
+    font-family: Poopins;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins";
+    padding: 32px 142px;
+  }
+  .logo-img {
+    color: white;
+    font-size: 40px;
+  }
+  .active {
+    color: #03adea;
+  }
+  header ul {
+    font-family: "Poppins";
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+  }
+  .content-title{
+    font-size: 64px;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: "Poopins";
+  }
+  .content-role{
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.content-doc{
+    font-size: 24px;
+    font-weight: 600;
+    color: aliceblue;
+    font-family: "Poopins";
+    line-height: 28px;
+}
+.main-btn{
+background-color: aliceblue;
+color: #2a648d;
+border: grey;
+}
+.second-btn{
+    background-color: chartreuse;
+    border: 1px solid red;
+}
+.btn {
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 12px;
+
+}
+@media only screen and (max-width: 600px) {
+.content{
+  flex-direction: column;
+}
+}
